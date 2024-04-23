@@ -26,12 +26,13 @@
   position: relative;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
+  line-height: normal;
   font-weight: 300;
   color: var(--text-dark);
 }
 
-.secttion__call::after {
+.section__header ::after {
   position: absolute;
   content: "";
   left: 0;
@@ -522,10 +523,17 @@ nav {
   text-align: center;
 }
 
-@media (width > 480px) {
+@media only screen and (max-width: 600px) {
   .class__grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem 1rem;
+  }
+  .header__image {
+    display: none;
+  }
+  .section__header {
+    padding-top: 50px;
+    font-size: 25px;
   }
 
   .trainer__grid {
@@ -547,7 +555,7 @@ nav {
   }
 }
 
-@media (width > 768px) {
+@media only screen and (min-width: 768px) {
   nav {
     position: static;
     padding: 2rem 1rem;
@@ -625,7 +633,7 @@ nav {
   } */
 }
 
-@media (width > 1024px) {
+@media only screen and (min-width: 992px) {
   .class__grid {
     gap: 2rem;
   }
