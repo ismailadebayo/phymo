@@ -680,6 +680,12 @@ nav {
     max-width: 100%;
   }
 }
-.review{
+.review {
   text-align: center;
+}
+#gallery {
+  margin: 20px 70px 20px 70px;
+}
+.gallery-header {
+  margin-bottom: 50px;
 }
