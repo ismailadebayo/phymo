@@ -679,12 +679,13 @@ nav {
     flex: 100%;
     max-width: 100%;
   }
+  
 }
 .review {
   text-align: center;
 }
 #gallery {
-  margin: 20px 70px 20px 70px;
+  margin: 20px 30px 20px 30px;
 }
 .gallery-header {
   margin-bottom: 50px;
